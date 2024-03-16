@@ -1,6 +1,6 @@
 [project]
 name = "casbin-async-postgres-watcher"
-version = "0.0.1"
+version = "1.0.0"
 authors = [
     {name = "hsluoyz", email = "hsluoyz@gmail.com"},
 ]
