@@ -1,0 +1,32 @@
+[project]
+name = "casbin-async-postgres-watcher"
+version = "1.0.0"
+authors = [
+    {name = "hsluoyz", email = "hsluoyz@gmail.com"},
+]
+description = "Async casbin role watcher to be used for monitoring updates to policies for PyCasbin"
+readme = "README.md"
+dynamic = ["dependencies"]
+requires-python = ">=3.5"
+license = {text = "Apache 2.0"}
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Home-page" = "https://github.com/pycasbin/async-postgres-watcher"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["tests", "tests.*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
