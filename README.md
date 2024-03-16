@@ -7,7 +7,7 @@
 [![PyPI - License](https://img.shields.io/pypi/l/casbin-async-postgres-watcher)](https://pypi.org/project/casbin-async-postgres-watcher/)
 [![Discord](https://img.shields.io/discord/1022748306096537660?logo=discord&label=discord&color=5865F2)](https://discord.gg/S5UjpzGZjN)
 
-Async casbin role watcher to be used for monitoring updates to casbin policies
+Async Casbin PostgreSQL watcher to be used for monitoring updates to Casbin policies.
 
 ## Installation
 
