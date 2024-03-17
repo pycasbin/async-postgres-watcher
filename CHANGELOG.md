@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.1.0](https://github.com/pycasbin/async-postgres-watcher/compare/v1.0.0...v1.1.0) (2024-03-17)
+
+
+### Features
+
+* bump version to 1.1.0 ([8f2d142](https://github.com/pycasbin/async-postgres-watcher/commit/8f2d142de74faa88d1730b11c5eba0963774bffe))
+
 # 1.0.0 (2024-03-16)
 
 
